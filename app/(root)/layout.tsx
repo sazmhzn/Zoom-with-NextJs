@@ -1,4 +1,4 @@
-import React, { Children, ReactNode } from 'react'
+import React, { ReactNode } from 'react'
 
 const layout = ( {children}: {children: ReactNode} ) => {
   return (
