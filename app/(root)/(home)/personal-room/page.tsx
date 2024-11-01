@@ -30,7 +30,7 @@ const PersonalRoom = () => {
   const client = useStreamVideoClient();
   const { user } = useUser();
   const meetingId = user?.id;
-  const meetingLink = `https://zoom-clone-tan-five.vercel.app/meeting//meeting/${meetingId}?personal=true`;
+  const meetingLink = `https://zoom-clone-tan-five.vercel.app/meeting/${meetingId}?personal=true`;
 
   const router = useRouter();
 
