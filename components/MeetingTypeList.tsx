@@ -161,7 +161,6 @@ const MeetingTypeList = () => {
           buttonIcon="/icons/copy.svg"
         />
       )}
-
       <MeetingModal
         isOpen={meetingState === "isInstantMeeting"}
         onClose={() => setMeetingState(undefined)}
